@@ -12,7 +12,7 @@ v0.2.0.0 Beta: Febuary 4, 2023
    [x] Make the disk rotate when resume playback
    [x] Stop the progressbar when pause playback
    [x] Update display when rewind/forward (stay on screen before)
-   [p] New version of XBMC JSON RPC# (v0.1.1.0) (comptatible with Kodi 18,19,20)
+   [p] New version of XBMC JSON RPC# (v0.1.1.0) (compatible with Kodi 18,19,20)
    
    v0.1.9.5 Beta: April 13, 2012
 -------------------------------

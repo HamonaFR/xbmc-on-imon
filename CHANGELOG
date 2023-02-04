@@ -1,0 +1,135 @@
+CHANGELOG for "XBMC on iMON Display"
+====================================
+
+[+]: new feature
+[-]: removed
+[x]: fixed
+[p]: patched
+
+v0.2.0.0 Beta: Febuary 4, 2023
+-------------------------------
+ - XBMC
+   [x] Make the disk rotate when resume playback
+   [x] Stop the progressbar when pause playback
+   [x] Update display when rewind/forward (stay on screen before)
+   [p] New version of XBMC JSON RPC# (v0.1.1.0) (comptatible with Kodi 18,19,20)
+   
+   v0.1.9.5 Beta: April 13, 2012
+-------------------------------
+ - XBMC
+   [+] Displaying the channels setting according to the media currently being played
+   [x] Errors caused by unsupported labels
+   [p] New version of XBMC JSON RPC# (v0.1.0.9)
+
+v0.1.9.4 Beta: March 13, 2012
+-------------------------------
+ - General
+   [p] .NET Framework 2.0 is sufficient now
+ - XBMC
+   [x] Errors caused by unsupported id label of Video items
+   [p] New version of XBMC JSON RPC# (v0.1.0.7)
+
+v0.1.9.3 Beta: January 26, 2012
+-------------------------------
+ - General
+   [x] Displaying correct system time in every moment now
+   [+] Upgrade of settings from previous versions of XbmcOniMon
+ - XBMC
+   [x] Errors caused by unsupported episodeid label of TV Episodes
+   [x] Connection to XBMC not reconnected properly after e.g. resume from sleep mode sometimes
+   [p] New version of XBMC JSON RPC# (v0.1.0.6)
+ - iMON:
+   [p] New version of iMon Display API Wrapper# (v0.1.0.9)
+
+v0.1.9.2 Beta: January 18, 2012
+-------------------------------
+ - General
+   [+] Checking for updates available 
+ - XBMC
+   [x] Control messages displayed correctly and with 1000ms timeout now (Issue #13)
+
+v0.1.9.1 Beta: January 17, 2012
+-------------------------------
+ - XBMC
+   [p] Using currently playing item information revived
+
+v0.1.9.0 Beta: January 10, 2012
+-------------------------------
+ - General:
+   [p] Compatibility with XBMC Eden (not compatible with XBMC Dharma now!)
+ - XBMC:
+   [+] Option to change the TCP port
+
+v0.1.4.0 Beta: January 04, 2011
+-------------------------------
+ - General:
+   [+] About dialog
+ - iMON:
+   [p] New version of iMon Display API Wrapper# (v0.1.0.7)
+   [p] Increased maximum delay after scrolling to 5s (from 2s)
+ - XBMC:
+   [+] Option to show/rotate the disc icon during playback
+   [x] Default values for Music / Music Video Playback text
+   [+] Formatting option to add leading zeros (format: %keyword:length%)
+   [+] Show system time instead of other text
+
+v0.1.3.1 Beta: November 10, 2010
+-------------------------------
+ - XBMC:
+   [x] fixed fallback mechanism on now playing music files
+
+v0.1.3.0 Beta: November 10, 2010
+-------------------------------
+ - General:
+   [x] Window didn't always show up when the tray icon was double-clicked
+   [+] Window now shows up when the application is being started again
+   [+] Option to disable balloon tips
+ - iMON:
+   [x] Maximum length of LCD text is limited to 256 characters
+ - XBMC:
+   [x] Progress bar was reset when the user seeked through the currently playing file
+   [x] Program crashed when the seek time was negative
+   [+] Option to customize the text shown when a movie is currently playing
+   [+] Option to enable/disable the usage of the "TV" media type icon instead of the "Movie" one when playing a tv episode
+   [+] Option to enable/disable the usage of the "TV" and "HDTV" icon when playing a tv episode
+   [+] Option to customize the text shown when a tv episode is currently playing
+   [+] Option to customize the text shown when a music video is currently playing
+   [+] Option to customize the text shown when a song is currently playing
+
+v0.1.2.0 Beta: November 03, 2010
+-------------------------------
+ - General:
+   [+] Option to enable XBMC on iMON Display to autostart with Windows
+ - iMON:
+   [+] "5.0 Surround" (4 sattelites and a center speaker) added to sound system setup (Ticket #4)
+ - XBMC:
+   [x] Changes to the Connection settings now take effect immediately as well (Ticket #3)
+   [+] Experimental "Control mode" which can display the currently active control (and window) of XBMC for navigation purposes
+   [+] Two fallback strategies when XBMC doesn't provide meta data information for playing files (Ticket #8)
+   [+] Option to enable/disable the usage of the media type icons (Music, Movie, Tv, Webcast, News/Weather)
+   [+] Option to enable/disable the usage of the audio/video codec icons
+   [+] Option to define mappings for audio/video codecs to the available icons
+
+v0.1.1.0 Beta: October 31, 2010
+-------------------------------
+ - General:
+   [+] Logging of errors added (see error.log in the application directory)
+   [+] Option to enable detailed debug logging (see debug.log in the application directory)
+ - iMON:
+   [+] Custom delay at the end of a scrolling text before the next / same text starts scrolling again
+   [x] Interaction with the display is now handled in a seperate thread which avoids user interface freezes
+   [+] Possibility to enable/disable displaying a sound system setup and choosing between different sound systems
+ - XBMC:
+   [+] Option to enable/disable displaying a custom static text when XBMC is idle (no file is playing)
+   [x] Interaction with XBMC is now handled in a seperate thread which avoids user interface freezes
+
+v0.1.0.0 Beta: October 27, 2010
+-------------------------------
+ - Initial release
+ - Basic user interface with a few options
+ - Possibility to auto-connect to XBMC as soon as it starts (short delay depending on the configured interval)
+ - Output of the title of the currently playing song, movie or tv episode
+ - Display of the progress of the currently playing file using the top and bottom bars
+ - MUSIC/MOVIE/PHOTO icons indicate what kind of file is being played
+ - Repeat (RPT) and Shuffle (SFL) icons indicate whether the current playlist is set to repeat / is randomized
+   

@@ -1,6 +1,6 @@
 # XBMC on iMON Display
 
-**UPDATE by HamopnaFr (Febuary 2023)**
+**UPDATE by HamonaFr (Febuary 2023)**
 
 ![Screenshot](docs/screenshot.png)
 

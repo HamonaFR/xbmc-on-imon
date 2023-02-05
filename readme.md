@@ -2,7 +2,7 @@
 
 **UPDATE by HamonaFr (Febuary 2023)**
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs/XbmcOniMon.JPG)
 
 I have updated XBMC on iMON Display to work with newerst version of Kodi (Nexus).
 

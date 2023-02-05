@@ -35,7 +35,7 @@ please report this so we can help investigate the problem.
  - Windows 7 or newer
  - Microsoft .NET Framework 2.0: https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows
  - iMON Manager v8.12.1202: You need to install iMON Manager v8.12.1202 or higher
-   (http://download.soundgraph.com/file/setup/iMON_7_90_0702_01.zip)
+   (https://www.lo4d.com/get-file/imon/723e98d0999412c6b7cac5b094b5e31c/)
  - Kodi 18 or newer: http://mirrors.kodi.tv/releases/windows/
 
 

@@ -5,8 +5,11 @@
 ![Screenshot](docs/XbmcOniMon.JPG)
 
 I have updated XBMC on iMON Display to work with newest version of Kodi (Nexus).
+The orginial version is from Montellese (https://github.com/Montellese/xbmc-on-imon).
+I have modified the XBMCJsonRpcSharp.dll file to work properly with the new version of kodi.
+I also have modified multiple file on xbmc-on-imon.exe to adapt it to  the newest version of kodi.
 
----------------
+Let me know i you have problems in the isues section. I'll try to resolve it.
 
 Table of Contents
 =================

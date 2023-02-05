@@ -96,7 +96,7 @@ Here is a list of a few known issues. Please DO NOT report these as bugs!
 ## 7. Support
 
 If you encounter any bug or have a problem using "XBMC on iMON Display" please visit
-the project management site at https://sourceforge.net/apps/trac/xbmc-on-imon/.
+the project management site at https://github.com/HamonaFR/xbmc-on-imon/issues.
 
 ## 8. Disclaimer
 
